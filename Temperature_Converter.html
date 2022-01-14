@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+</head>
+<body>
+<form>
+    <h1>Temperature Converter</h1>
+    <p>Type in a value in the Fahrenheit field to convert the value to Celcius:</p>
+    <p>Fahrenheit
+        <span>
+    <input id="F" type="number" placeholder="Input a number"
+           oninput="convert(this.value)"
+           onchange="convert(this.value)">
+    </span>
+    </p>
+    <p>Celcius: <span id="result"></span></p>
+</form>
+</body>
+</html>
